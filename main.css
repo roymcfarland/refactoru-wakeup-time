@@ -1,0 +1,72 @@
+.container {
+	margin: 50px;
+}
+
+.outerShell {
+	position: relative;
+	background-color: #555;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	padding: 40px 10px 40px 10px;
+}
+
+.innerShell {
+	background-color: black;
+	width: 500px;
+	margin: 0px auto;
+	border-radius: 15px;
+	padding: 20px 10px 100px 10px;
+}
+
+.clockFace {
+	background-color: #903312;
+	height: 150px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+}
+
+.time {
+	position: absolute;
+	color: #FD4534;
+	font-size: 8em;
+	height: 100px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.labels {
+	color: white;
+	float: left;
+	text-align: right;
+	padding-top: 20px;
+}
+
+.amRadio li {
+	color: white;
+	padding: 0px 10px;
+	list-style: none;
+	display: inline;
+	margin: 10px 2px;
+}
+
+.amRadio span {
+	color: white;
+	font-size: 0.5em;
+}
+
+.amRadio li:last-child {
+	padding: 0px 0px;
+}
+
+.fmRadio li {
+	color: white;
+	padding: 0px 10px;
+	list-style: none;
+	display: inline;
+	margin: 10px 2px;
+}
