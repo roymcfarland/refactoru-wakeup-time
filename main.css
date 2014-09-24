@@ -29,7 +29,7 @@
 	border-radius: 15px;
 }
 
-.time {
+.currentTime {
 	position: absolute;
 	color: #FD4534;
 	font-size: 8em;
@@ -37,6 +37,7 @@
 	width: 250px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0px 40px;
 }
 
 .labels {
